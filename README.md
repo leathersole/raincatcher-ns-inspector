@@ -1,7 +1,17 @@
-# Usage
+# RainCatcher Namespace inspector
+
+## Install
+
 ```
+npm install leathersole/raincatcher-ns-inspector
+```
+
+## Usage
+```
+var mediator = require('fh-wfm-mediator/lib/mediator');
 var nsInspector = require('raincatcher-ns-inspector');
 
+mediator.subscribe('wfm:user:create', function () { console.log('foo') });
 nsInspector.inspect(mediator);
 ```
 
