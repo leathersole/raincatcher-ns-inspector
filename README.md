@@ -1,6 +1,6 @@
 # Usage
 ```
-var nsInspector = require('../lib/ns-inspector');
+var nsInspector = require('raincatcher-ns-inspector');
 
 nsInspector.inspect(mediator);
 ```
