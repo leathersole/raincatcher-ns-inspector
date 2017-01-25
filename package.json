@@ -1,0 +1,29 @@
+{
+  "name": "raincatcher-ns-inspector",
+  "version": "0.0.1",
+  "description": "raincatcher namespace listing package ",
+  "main": "lib/ns-inspector.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leathersole/raincatcher-ns-inspector.git"
+  },
+  "keywords": [
+    "raincatcher"
+  ],
+  "author": "Takayuki Konishi <tkonishi@redhat.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leathersole/raincatcher-ns-inspector/issues"
+  },
+  "homepage": "https://github.com/leathersole/raincatcher-ns-inspector#readme",
+  "dependencies": {
+    "fh-wfm-mediator": "0.0.14",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
